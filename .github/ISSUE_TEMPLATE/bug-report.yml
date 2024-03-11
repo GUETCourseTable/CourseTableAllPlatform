@@ -17,7 +17,7 @@ body:
 
   - type: textarea
     attributes:
-      label: Current Behavior 现在的行为
+      label: Current Behavior | 现在的行为
       description: |
         A clear, concise and verbose description of the issue you're experiencing.
         清晰且准确地描述你遇到的问题。
@@ -26,7 +26,7 @@ body:
 
   - type: textarea
     attributes:
-      label: Expected Behavior 期望的行为
+      label: Expected Behavior | 期望的行为
       description: |
         A clear and concise description of what you expected to happen.
         清晰且准确地描述你期望的行为。
@@ -35,7 +35,7 @@ body:
 
   - type: textarea
     attributes:
-      label: Steps To Reproduce 重现步骤
+      label: Steps To Reproduce | 重现步骤
       description: |
         Steps to reproduce the behavior.
         重现这个问题的步骤
@@ -49,7 +49,7 @@ body:
 
   - type: textarea
     attributes:
-      label: Screenshots 屏幕截图
+      label: Screenshots | 屏幕截图
       description: |
         If applicable, add screenshots or screen records to help explain your problem.
         如果可以，请在此处添加屏幕截图或屏幕录制，以便更好地解释你遇到的问题。
@@ -78,7 +78,7 @@ body:
 
   - type: textarea
     attributes:
-      label: Additional Context 额外的信息
+      label: Additional Context | 额外的信息
       description: |
         Add any other context about the problem here.
         如果有额外的信息，请在这里提供。

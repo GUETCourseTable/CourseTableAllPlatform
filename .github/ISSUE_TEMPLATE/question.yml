@@ -1,5 +1,5 @@
 ---
-name: Question 提问
+name: Question | 提问
 description: Ask a question about this app | 向其他人询问关于这个app的问题
 title: "[Question]"
 labels:
@@ -14,7 +14,7 @@ body:
 
   - type: textarea
     attributes:
-      label: Your question 你要问的问题
+      label: Your question | 你要问的问题
       description: |
         A clear and concise description of what your question is.
         清晰且准确地描述你要问的问题。
