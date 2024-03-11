@@ -1,0 +1,53 @@
+---
+name: Feature Request | 请求新增功能
+description: Suggest an idea to help us improve our app | 提出意见，以便我们更好地改进产品
+title: "[Feature]: "
+labels:
+  - "feature_request"
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Thanks :heart: for taking the time to fill out this feature request report!**
+        **感谢 :heart: 你抽出时间来填写这个新增功能请求表**
+        
+        We kindly ask that you search to see if an issue [already exists](https://github.com/GUETCourseTable/CourseTableAllPlatform/issues?q=is%3Aissue+sort%3Acreated-desc+) for your feature.
+        在开始之前，我们请求你在 [issue](https://github.com/GUETCourseTable/CourseTableAllPlatform/issues?q=is%3Aissue+sort%3Acreated-desc+) 列表中检查你要提交的请求是否已经存在。
+
+  - type: textarea
+    attributes:
+      label: Description 描述
+      description: |
+        A clear and concise description of the feature you're interested in.
+        使用清晰准确的语言描述你想要的功能。
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Suggested Solution 建议的行为
+      description: |
+        Describe the solution you'd like. A clear and concise description of what you want to happen.
+        使用清晰准确的语言描述你期望的行为。
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Alternatives 替代方案
+      description: |
+        Describe alternatives you've considered.
+        A clear and concise description of any alternative solutions or features you've considered.
+        如果对于这个请求，你想到了其他的方案，请在此填写
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: Additional Context 额外信息
+      description: |
+        Add any other context about the problem here.
+        如果有任何额外的信息，请在此处填写
+    validations:
+      required: false
