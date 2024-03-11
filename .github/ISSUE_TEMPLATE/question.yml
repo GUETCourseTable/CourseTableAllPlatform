@@ -1,6 +1,6 @@
 ---
 name: ❓ Question 提问
-about: Ask a question about this app 向其他人询问关于这个app的问题
+description: Ask a question about this app 向其他人询问关于这个app的问题
 title: "[Question]"
 labels:
   - "question"
