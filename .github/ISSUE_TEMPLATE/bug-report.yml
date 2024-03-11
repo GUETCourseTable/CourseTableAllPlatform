@@ -61,7 +61,7 @@ body:
 
   - type: textarea
     attributes:
-      label: Environment 运行环境
+      label: Environment | 运行环境
       description: |
         Information about your mobile phone where you run this app.
         关于你运行此 App 的设备的信息
