@@ -1,0 +1,86 @@
+---
+name: App Bug | 应用中的缺陷
+description: Create a report to help us improve our app by reproducing and fixing bugs. | 提交一个缺陷报告，来帮助我们修正错误
+title: "[Bug]: "
+labels:
+  - "bug"
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Thanks :heart: for taking the time to fill out this bug report!**
+        **感谢 :heart: 你抽出时间来填写这个缺陷报告**
+        
+        We kindly ask that you search to see if an issue [already exists](https://github.com/wandb/wandb/issues?q=is%3Aissue+sort%3Acreated-desc+) for the bug you encountered.
+        在开始之前，我们请求你在 [issue](https://github.com/GUETCourseTable/CourseTableAllPlatform/issues?q=is%3Aissue+sort%3Acreated-desc+) 列表中检查你要提交的缺陷是否已经存在。
+
+  - type: textarea
+    attributes:
+      label: Current Behavior 现在的行为
+      description: |
+        A clear and concise description of the issue you're experiencing.
+        使用清晰准确的语言描述你遇到的问题。
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Expected Behavior 期望的行为
+      description: |
+        A clear and concise description of what you expected to happen.
+        使用清晰准确的语言描述你期望的行为。
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Steps To Reproduce 重现步骤
+      description: |
+        Steps to reproduce the behavior.
+        重现这个问题的步骤
+      placeholder: |
+        1. Go to '...'
+        2. Click on '....'
+        3. Scroll down to '....'
+        4. See error
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Screenshots 屏幕截图
+      description: |
+        If applicable, add screenshots or screen records to help explain your problem.
+        如果可以，请在此处添加屏幕截图或屏幕录制，以便更好地解释你遇到的问题。
+
+        Tip: You can attach images or log files by clicking this area to highlight it and then dragging files in.
+        提示：你可以点击这个文本框，然后将文件拖拽进来。
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: Environment 运行环境
+      description: |
+        Information about your mobile phone where you run this app.
+        关于你运行此 App 的设备的信息
+
+      value: |
+        OS version 系统版本:
+
+        Phone spec 手机型号:
+
+        App version 应用版本:
+
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Additional Context 额外的信息
+      description: |
+        Add any other context about the problem here.
+        如果有额外的信息，请在这里提供。
+    validations:
+      required: false
