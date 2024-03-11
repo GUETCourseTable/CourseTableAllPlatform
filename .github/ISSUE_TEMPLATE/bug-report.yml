@@ -1,5 +1,5 @@
 ---
-name: App Bug | 应用中的缺陷
+name: Bug In App | 应用中的缺陷
 description: Create a report to help us improve our app by reproducing and fixing bugs. | 提交一个缺陷报告，来帮助我们修正错误
 title: "[Bug]: "
 labels:
@@ -19,8 +19,8 @@ body:
     attributes:
       label: Current Behavior 现在的行为
       description: |
-        A clear and concise description of the issue you're experiencing.
-        使用清晰准确的语言描述你遇到的问题。
+        A clear, concise and verbose description of the issue you're experiencing.
+        清晰且准确地描述你遇到的问题。
     validations:
       required: true
 
@@ -29,7 +29,7 @@ body:
       label: Expected Behavior 期望的行为
       description: |
         A clear and concise description of what you expected to happen.
-        使用清晰准确的语言描述你期望的行为。
+        清晰且准确地描述你期望的行为。
     validations:
       required: true
 

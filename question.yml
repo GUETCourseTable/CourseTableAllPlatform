@@ -1,0 +1,22 @@
+---
+name: ❓ Question 提问
+about: Ask a question about this app 向其他人询问关于这个app的问题
+title: "[Question]"
+labels:
+  - "question"
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        We kindly ask that you search to see if an issue [already exists](https://github.com/wandb/wandb/issues?q=is%3Aissue+sort%3Acreated-desc+) for the question you may ask.
+        在开始之前，我们请求你在 [issue](https://github.com/GUETCourseTable/CourseTableAllPlatform/issues?q=is%3Aissue+sort%3Acreated-desc+) 列表中检查你要提的问题是否已经存在。
+
+  - type: textarea
+    attributes:
+      label: Your question 你要问的问题
+      description: |
+        A clear and concise description of what your question is.
+        清晰且准确地描述你要问的问题。
+    validations:
+      required: true

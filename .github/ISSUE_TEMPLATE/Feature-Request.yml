@@ -3,7 +3,7 @@ name: Feature Request | 请求新增功能
 description: Suggest an idea to help us improve our app | 提出意见，以便我们更好地改进产品
 title: "[Feature]: "
 labels:
-  - "feature_request"
+  - "enhancement"
 
 body:
   - type: markdown
@@ -20,7 +20,7 @@ body:
       label: Description 描述
       description: |
         A clear and concise description of the feature you're interested in.
-        使用清晰准确的语言描述你想要的功能。
+        清晰且准确地描述你想要的功能。
     validations:
       required: true
 
@@ -29,7 +29,7 @@ body:
       label: Suggested Solution 建议的行为
       description: |
         Describe the solution you'd like. A clear and concise description of what you want to happen.
-        使用清晰准确的语言描述你期望的行为。
+        清晰且准确地描述你期望的行为。
     validations:
       required: true
 
